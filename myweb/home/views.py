@@ -1,4 +1,4 @@
-from django.shortcuts import render
+﻿from django.shortcuts import render
 
 from sklearn.ensemble import BaggingClassifier
 from imblearn.ensemble import BalancedBaggingClassifier 
@@ -11,7 +11,6 @@ from sklearn import metrics
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from collections import Counter
-import pandas_profiling
 from sklearn.ensemble import VotingClassifier
 
 import pandas as pd 
